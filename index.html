@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P8_2_prueba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #un, #dos{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+        #un{
+            padding: 1.2em;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 5;
+            font-family: 'Kalnia', serif;
+        }
+        h1, h2{
+            text-align: center;
+            font-size: 5em;
+            line-height: .8em;
+        }
+        #dos{
+            padding: 1.5em 10%em;
+            z-index: 1;
+            font-family: 'Roboto', sans-serif;
+            flex-direction: column;
+            justify-items: space-around;
+            justify-content: center;
+        }
+        h3, h4, h5{
+            font-size: 3em;
+            padding: 4% 0 0 0;
+        }
+        h4{
+            display: flex;
+            justify-content: space-between;
+        }
+        h5{
+            display: flex;
+            justify-content: space-around;
+        }
+        @media only screen and (max-width: 710px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  #dos{
+    padding: 1.5em .2em;
+  }
+  h3, h4, h5{
+    font-size: 1.5em;
+    margin: 19% 0 0 0;
+  }
+  h1,h2{
+    font-size: 2.2em;
+    line-height: 1em;
+  }
+
+}
+    </style>
+</head>
+<body>
+    <div id="un">
+        <h1>Eric Hu</br>GIWFI</br></h1>
+        <h2>Virginia</br>Commonwealth</br>University</h2>
+    <div id="dos">
+        <h3>Objects+Methoods</h3>
+        <h4><span>3/1 The Depot</span><span>4:30pm</span></h4>
+        <h4><span>91780</br>06510</br>11211</br></span><span>N16JP</span></h4>
+        <h5><span>11222</span><span>H2V4G9</span></h5>
+</div>
+</body>
+</html>
